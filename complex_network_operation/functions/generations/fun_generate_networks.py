@@ -3,11 +3,12 @@
 """
 import networkx as nx
 
-from complex_network_operation.externals import np, plt
-# from complex_network_operation.externals import njit
+import numpy as np
+import matplotlib.pyplot as plt
+# from numba import njit
 from complex_network_operation.functions.generations.fun_generate_points import generate_points
 from scipy.spatial import Voronoi, voronoi_plot_2d
-import matplotlib
+# import matplotlib
 # matplotlib.use('TkAgg')
 
 

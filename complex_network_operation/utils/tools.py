@@ -2,7 +2,29 @@
 各种工具集
 """
 
-from complex_network_operation.externals import sys, os, logging, time, Path, itertools, pkgutil, importlib, re, np, pd, random, string, shutil, locale, Union, DataFrame, pickle, base64, subprocess, chardet
+
+import sys
+import os
+import logging
+import time
+from pathlib import Path
+import itertools
+import pkgutil
+import importlib
+import re
+import numpy as np
+import pandas as pd
+import random
+import string
+import shutil
+import locale
+from typing import Union
+from pandas import DataFrame
+import pickle
+import base64
+import subprocess
+import chardet
+# from complex_network_operation.externals import sys, os, logging, time, Path, itertools, pkgutil, importlib, re, np, pd, random, string, shutil, locale, Union, DataFrame, pickle, base64, subprocess, chardet
 
 pass  # end import
 
